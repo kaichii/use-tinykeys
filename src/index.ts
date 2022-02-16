@@ -15,3 +15,5 @@ export default function useTinykeys(
 
   return;
 }
+
+export * from 'tinykeys';

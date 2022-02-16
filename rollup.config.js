@@ -9,13 +9,10 @@ export default {
     {
       file: pkg.main,
       format: 'cjs',
-      sourcemap: true,
-      exports: 'default',
     },
     {
       file: pkg.module,
       format: 'esm',
-      sourcemap: true,
     },
   ],
   external: ['react'],
