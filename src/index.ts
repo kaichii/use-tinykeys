@@ -12,4 +12,6 @@ export default function useTinykeys(
 
     return () => unsub();
   }, [keyBindingMap]);
+
+  return;
 }
