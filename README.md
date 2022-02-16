@@ -1,2 +1,2 @@
 # use-tinykeys
-react hook for [tinykeys](https://github.com/jamiebuilds/tinykeys)
+react hooks for [tinykeys](https://github.com/jamiebuilds/tinykeys)
