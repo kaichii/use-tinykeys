@@ -14,6 +14,8 @@ npm i use-tinykeys
 
 ## Usage
 
+### Keybinding
+
 ```tsx
 import useTinykeys from 'use-tinykeys';
 
@@ -35,4 +37,13 @@ function App() {
     // ...
   );
 }
+```
+
+### Access Tinykeys
+
+```ts
+import {
+  createKeybindingsHandler,
+  KeyBindingHandlerOptions,
+} from 'use-tinykeys';
 ```
