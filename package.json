@@ -1,0 +1,58 @@
+{
+  "name": "use-tinykeys",
+  "version": "0.0.2",
+  "private": true,
+  "description": "react hooks for tinykeys",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.esm.js",
+  "files": [
+    "dist"
+  ],
+  "exports": {
+    ".": {
+      "import": "./dist/index.esm.js",
+      "require": "./dist/index.cjs.js"
+    }
+  },
+  "scripts": {
+    "build": "rimraf dist && rollup -c && tsc --emitDeclarationOnly",
+    "prepublish": "pnpm build && npm version patch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaichii/use-tinykeys.git"
+  },
+  "keywords": [
+    "react",
+    "hooks",
+    "tinykeys"
+  ],
+  "author": "kaichi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kaichii/use-tinykeys/issues"
+  },
+  "homepage": "https://github.com/kaichii/use-tinykeys#readme",
+  "peerDependencies": {
+    "react": ">=16.13"
+  },
+  "dependencies": {
+    "tinykeys": "^1.4.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.4",
+    "@babel/preset-env": "^7.16.11",
+    "@rollup/plugin-babel": "^5.3.0",
+    "@rollup/plugin-node-resolve": "^13.1.3",
+    "@rollup/plugin-typescript": "^8.3.0",
+    "@types/react": "^17.0.39",
+    "rimraf": "^3.0.2",
+    "rollup": "^2.67.2",
+    "tslib": "^2.3.1",
+    "typescript": "^4.5.5"
+  },
+  "prettier": {
+    "singleQuote": true,
+    "tabWidth": 2
+  }
+}
