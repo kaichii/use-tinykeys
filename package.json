@@ -1,6 +1,6 @@
 {
   "name": "use-tinykeys",
-  "version": "0.0.3",
+  "version": "0.0.1",
   "private": true,
   "description": "react hooks for tinykeys",
   "main": "dist/index.cjs.js",
@@ -51,9 +51,6 @@
     "rollup": "^2.67.2",
     "tslib": "^2.3.1",
     "typescript": "^4.5.5"
-  },
-  "publishConfig": {
-    "directory": "dist"
   },
   "prettier": {
     "singleQuote": true,
