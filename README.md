@@ -2,7 +2,17 @@
 
 react hooks for [tinykeys](https://github.com/jamiebuilds/tinykeys)
 
-## Example
+## Install
+
+```sh
+pnpm add use-tinykeys
+// or
+yarn add use-tinykeys
+// or
+npm i use-tinykeys
+```
+
+## Usage
 
 ```tsx
 import useTinykeys from 'use-tinykeys';
