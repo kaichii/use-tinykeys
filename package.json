@@ -1,7 +1,7 @@
 {
   "name": "use-tinykeys",
   "version": "0.0.1",
-  "private": true,
+  "private": false,
   "description": "react hooks for tinykeys",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
