@@ -16,7 +16,8 @@
   },
   "scripts": {
     "build": "rimraf dist && rollup -c && tsc --emitDeclarationOnly",
-    "prepublish": "pnpm build && npm version patch"
+    "prepublish": "pnpm build && npm version patch",
+    "publish": "pnpm publish"
   },
   "repository": {
     "type": "git",
@@ -50,6 +51,9 @@
     "rollup": "^2.67.2",
     "tslib": "^2.3.1",
     "typescript": "^4.5.5"
+  },
+  "publishConfig": {
+    "directory": "dist"
   },
   "prettier": {
     "singleQuote": true,
