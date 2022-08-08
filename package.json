@@ -40,7 +40,7 @@
     "@rollup/plugin-babel": "5.3.1",
     "@rollup/plugin-node-resolve": "13.3.0",
     "@rollup/plugin-typescript": "8.3.4",
-    "@types/react": "18.0.16",
+    "@types/react": "18.0.17",
     "rimraf": "3.0.2",
     "rollup": "2.77.2",
     "tslib": "2.4.0",
