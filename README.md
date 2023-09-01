@@ -2,6 +2,8 @@
 
 react hooks for [tinykeys](https://github.com/jamiebuilds/tinykeys)
 
+[![NPM](https://img.shields.io/npm/v/use-tinykeys.svg)](https://www.npmjs.com/package/use-tinykeys) ![NPM Downloads](https://img.shields.io/npm/dm/use-tinykeys) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+
 ## Install
 
 ```sh
